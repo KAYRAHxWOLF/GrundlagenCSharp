@@ -61,10 +61,10 @@ Console.ReadLine();
 //aufgabe 2
 
 var vorname = "Nurullah";
-var alter = "18";
-var antwort = "Ja";
+short alter = 18;
+bool antw = true;
 
-Console.WriteLine($"Mein Name ist {vorname}. Ich bin Momentan {alter} und {antwort} C# ist meine erste Programmiersprache");
+Console.WriteLine($"Mein Name ist {vorname}. Ich bin Momentan {alter} und {antw} C# ist meine erste Programmiersprache");
 
 
 Console.WriteLine("das war die aufgabe 2. click enter um fortzufahren");
@@ -72,9 +72,10 @@ Console.ReadLine();
 
 //aufgabe 3
 
-int DollerZahl = 36;
-char Dollar = (char)DollerZahl;
-
+int DollarZahl = 36;
+char Dollar = (char)DollarZahl;
+Console.WriteLine(DollarZahl);
+Console.WriteLine(Dollar);
 
 Console.WriteLine("das war die aufgabe 3. click enter um fortzufahren");
 Console.ReadLine();
@@ -84,7 +85,7 @@ Console.ReadLine();
 
 // aufgabe 4
 
-string eingabe = Console.ReadLine();
+var eingabe = Console.ReadLine();
 short short_number = Convert.ToInt16(eingabe);
 
 Console.WriteLine(short_number / 10);
